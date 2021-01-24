@@ -69,7 +69,7 @@ def binary_search(array, element):
 
 print("Importing Data...")
 #import word frequency data
-dataTable = pd.read_csv("unigram_freq.csv")
+dataTable = pd.read_csv("sorted_unigram_freq.csv")
 
 #import text file, each word as item in array
 with open("text.txt", "r") as file:
